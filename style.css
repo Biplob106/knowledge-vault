@@ -1,4 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-h1{
-    color: red;
+.navbar{
+    background-color: #FFFFFF;
+    height: 92px;
+    display: flex;
+    gap:346px;
+    align-items: center;
+}
+.logo img{
+    height: 60px;
+    width: 139px;
+    margin-left: 120px;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 32px;
+
+}
+.nav-links li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+}
+.nav-button{
+    margin-left: 120px;
+}
+.btn{
+    background-color: #469165;
+    color: white;
+    padding: 12.5px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
 }
