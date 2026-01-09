@@ -40,7 +40,7 @@
 }
 #banner{
     height: 674px;
-    background-image: url("assets/hero-bg.png");
+    background-image: url("./assets/hero-bg.png");
     position: relative;
 }
 .banner-content{
