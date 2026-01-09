@@ -42,6 +42,7 @@
     height: 674px;
     background-image: url("./assets/hero-bg.png");
     position: relative;
+    opacity: 0.8;
 }
 .banner-content{
     position: absolute;
@@ -50,6 +51,9 @@
     text-align: center;
     height: 168px;
     width: 770px;
+}
+.banner-content span{
+    color: #30B868;
 }
 .banner-content h1{
     font-size: 48px;
@@ -103,6 +107,11 @@
     height: 300px;
     width: 332px;
     background-color: white;
+}
+.card-info p {
+font-size: 16px;
+margin-left: 24px;
+margin-right: 24px;
 }
 .icon{
     margin-top: 70px;
@@ -212,7 +221,9 @@ display: inline;
 
 
 }
-
+.social-icons i{
+    background: white;
+}
 .hr{
 
     height: 1px;
