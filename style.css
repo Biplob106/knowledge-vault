@@ -69,3 +69,128 @@
     background-color: #FFFFFF;
     border-radius: 20px;
 }
+#notes{
+    background-color: #fbfbfb;
+    height: 448px;
+
+}
+
+.note-container{
+    text-align: center;
+    padding-top: 64px;
+    margin: 0 auto;
+}
+.note-container h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.note-container p{
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 48px;
+}
+.card-container{
+    display: flex;
+    gap:24px;
+    justify-content: center;
+    max-width: 1360px;
+    margin: 0 auto;
+ 
+}
+.card-info{
+    height: 300px;
+    width: 332px;
+    background-color: white;
+}
+.icon{
+    margin-top: 70px;
+    height: 60px;
+    width: 60px;
+    border: none;
+    border-radius: 50%;
+    background-color: #F95555;
+    align-items: center;
+    justify-content: center;
+    margin:70px  auto 16px;
+    position: relative;
+}
+.icon img{
+    height: 32px;
+    width: 32px;
+
+    position:absolute;
+    top: 25%;
+    left:25%
+}
+.brain-container{
+    margin: 120px;
+    display: flex;
+    gap:60px;
+}
+.brain-image {
+    max-height: 600px;
+    max-width: 600px;
+    border: none;
+    border-radius: 10px;
+}
+.brain-content{
+    margin-top: 102px;
+    max-width: 700px;
+}
+.brain-content h4{
+    font-size: 16px;
+    color:#469165;
+    margin-bottom: 16px;
+
+}
+.brain-content h2{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #001931;
+}
+.brain-content p{
+    font-size: 16px;
+    line-height: 20px;
+    color:#627382;
+    margin-bottom: 40px;
+
+}
+.brain-list ul li {
+    list-style: none;
+
+}
+.list-icon p{
+display: inline;
+}
+#access{
+    max-height: 506px;
+}
+.access-container{
+    background-color: #f7f6f2;
+    max-height: 384px;
+    max-width: 1360px;
+   margin-left: 120px;
+   margin-right: 120px;
+    text-align: center;
+    padding: 80px 40px;
+}
+.access-container h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+
+}
+.access-container p{
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+.access-container button{
+    margin-bottom: 16px;
+}
+.message {
+    margin-bottom: 80px;
+}
