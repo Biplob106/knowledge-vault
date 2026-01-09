@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+}
+.btn-hover:hover {
+    background-color: #afe3b2;
 }
 
 .navbar{
@@ -37,6 +41,11 @@
     border: none;
     border-radius: 8px;
     cursor: pointer;
+    font-size: 16px;
+    font-weight: semi-bold;
+}
+.btn i{
+    margin-left: 8px;
 }
 #banner{
     height: 674px;
@@ -72,6 +81,24 @@
     border: none;
     background-color: #FFFFFF;
     border-radius: 20px;
+    color: #469165;
+    font-size: 16px;
+}
+.banner-top-btn i{
+    margin-right: 6px;
+    opacity: 0.8;
+}
+.banner-button{
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 12.5px;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+ 
+}
+.banner-button i{
+    margin-right: 8px;
 }
 #notes{
     background-color: #fbfbfb;
@@ -167,8 +194,36 @@ margin-right: 24px;
     margin-bottom: 40px;
 
 }
+.brain-list ul{
+    margin: 0;
+    padding: 0;
+}
 .brain-list ul li {
     list-style: none;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 1.5;
+
+}
+.brain-list li::before{
+        content: '✓';
+        position: absolute;
+        left: 0px;
+        top:50%;
+        height: 24px;
+        width: 24px;
+        background-color: #30B868;
+        color: white;
+        border: none;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        transform: translateY(-50%);
+        
 
 }
 .list-icon p{
@@ -183,13 +238,18 @@ display: inline;
     max-width: 1360px;
    margin-left: 120px;
    margin-right: 120px;
+   margin-bottom: 120px;
     text-align: center;
     padding: 80px 40px;
+    border: none;
+    border-radius: 10px;
+
 }
 .access-container h2{
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 16px;
+    color: #001931;
 
 }
 .access-container p{
@@ -199,10 +259,12 @@ display: inline;
 }
 .access-container button{
     margin-bottom: 16px;
+    position: relative;
 }
+
 #footer{
     height: 348px;
-    background-color: #000000;
+    background-color: #001931;
 }
 .footer-link{
     display: flex;
@@ -222,15 +284,15 @@ display: inline;
 
 }
 .social-icons i{
-    background: white;
+    border: none;
+    border-radius: 50%;
 }
 .hr{
-
-    height: 1px;
     max-width: 1360px;
-    background: #c40c28;
     text-align: center;
     margin: 0 auto;
+    background-color: #000000;
+    opacity: 0.1;
 }
 .copy-right{
     text-align: center;
