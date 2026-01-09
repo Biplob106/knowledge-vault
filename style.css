@@ -38,3 +38,34 @@
     border-radius: 8px;
     cursor: pointer;
 }
+#banner{
+    height: 674px;
+    background-image: url("assets/hero-bg.png");
+    position: relative;
+}
+.banner-content{
+    position: absolute;
+    top: 200px;
+    left: 25%;
+    text-align: center;
+    height: 168px;
+    width: 770px;
+}
+.banner-content h1{
+    font-size: 48px;
+    color: #fcfbfb;
+   
+}
+.banner-content p{
+    font-size: 20px;
+    color: #fcfbfb;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+.banner-top-btn{
+    height: 35px;
+    width: 229px;
+    border: none;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
